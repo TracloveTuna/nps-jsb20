@@ -9,8 +9,16 @@
     outline: none;
     border: none;
   }
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
 #Header {
-    background-color:green;
+    background-color:limegreen;
 }
 a {
     color: white;
@@ -46,3 +54,29 @@ a {
 .aside li{
 padding:10px 25px 0px 25px;
 }
+
+.banner {
+    position: relative;
+}
+
+.banner .content {
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imghang .ngang{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+    
+}
+.ri{
+    width: 512px;
+    margin: 14px;
+    border: solid;
+    border-color: limegreen;
+
+}
+
